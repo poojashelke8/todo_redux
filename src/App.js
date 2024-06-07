@@ -1,11 +1,12 @@
 import './App.css';
-import TaskInput from './Components/TaskInput';
+import TaskMain from './Components/TaskMain';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello</h1>
-      <TaskInput/>
+      {/* <TaskInput/> */}
+      <TaskMain/>
     </div>
   );
 }

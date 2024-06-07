@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.taskmain{
+    height: 500px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(198, 198, 241);
+}

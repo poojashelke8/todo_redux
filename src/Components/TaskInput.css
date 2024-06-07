@@ -8,9 +8,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height:80px;
+    height:100px;
     width:400px;
-    /* background-color: bisque; */
+    background-color: rgb(147, 147, 245);
     margin-left: 35%;
 }
 .input_bar{
