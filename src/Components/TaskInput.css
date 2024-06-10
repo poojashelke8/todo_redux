@@ -4,14 +4,34 @@
     box-sizing: border-box;
 }
 
+.taskinput{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    /* box-sizing: border-box; */
+    height: 450px;
+    width:600px;
+    background-color: rgb(43, 43, 82);
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.displaytask{
+    height:300px;
+    width:400px;
+    background-color: rgb(108, 167, 214);
+    border-radius: 20px;
+    /* margin: 0 20px 20px 0; */
+}
+
 .inputmain{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height:100px;
     width:400px;
-    background-color: rgb(147, 147, 245);
-    margin-left: 35%;
+    /* background-color: rgb(147, 147, 245); */
+    /* margin-left: 35%; */
 }
 .input_bar{
     height:30px;
