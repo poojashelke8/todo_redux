@@ -3,6 +3,43 @@
     width:300px;
     background-color: rgb(112, 112, 168);
     border-radius: 20px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     /* margin: 0 10px 10px 0; */
 }
+
+#filtersheading{
+    /* padding-left: 20px; */
+    color: white;
+}
+/* 
+.filterlist{
+    height:300px;
+    width: 300px;
+    /* background-color: rgb(103, 131, 131); */
+    
+    /* margin-left: 30px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+/* } */
+
+.filterlist1{
+    height: 40px;
+    width: 300px;
+    /* background-color: rgb(72, 67, 97); */
+    color: rgb(181, 196, 243);
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    /* margin-left: 90px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.filterlist1:hover {
+    background-color: rgb(107, 128, 187);
+    transform: scale(1.05);
+  }

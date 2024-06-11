@@ -3,10 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-.taskmain{
-    height: 500px;
-    width:100%;
+
+.main{
+    height:600px;
+    width: 100%;
+    background-color: rgb(3, 3, 65);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    /* align-items: center; */
+    /* margin-top: 30px; */
+    /* align-items: center;  */
+}
+
+#taskheading{
+    height: 50px;
+    width: 100px;
+    /* background-color: rgb(172, 172, 68); */
+    margin-left: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    /* display:contents;
+    align-items: center; */
+}
+.taskmain1{
+    height: 480px;
+    width:80%;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(198, 198, 241);
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    /* margin-top: 0px; */
+    /* margin-bottom: 10px; */
+    border-radius: 20px;
+    /* margin-bottom: 10%; */
+    /* background-color: rgb(198, 198, 241); */
 }
