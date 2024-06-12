@@ -8,7 +8,7 @@ const TaskMain = () => {
     <div className='main'>
     <h1 id='taskheading'>todo.</h1>
     <div className='taskmain1'>
-        <FilterTask/>
+        {/* <FilterTask/> */}
         <TaskInput/>
     </div>
     </div>

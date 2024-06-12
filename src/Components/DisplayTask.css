@@ -18,23 +18,26 @@
   box-sizing: border-box;
 }
 .task{
-    background-color: lightblue;
+    background-color: rgb(245, 247, 248);
   margin: 5px;
+  height: 100px;
   padding: 10px;
   border-radius: 4px;
   box-sizing: border-box;
   flex: 1 0 45%; /* Adjust this to control the width of the items */
   text-align: center;
 }
+
 .delete_btn{
     /* display:flex;
     align-items: center;
     justify-content: center; */
-    height:40px;
-    width:130px;
+    height:30px;
+    width:80px;
     border: none;
-    background-color: rgb(123, 123, 243);
+    background-color: rgb(3, 3, 65);
     color: white;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 10px;
 }

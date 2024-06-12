@@ -11,16 +11,17 @@
     /* box-sizing: border-box; */
     height: 450px;
     width:600px;
-    background-color: rgb(43, 43, 82);
+    background-color: rgb(247, 247, 250);
     /* margin-top: 25px; */
     border-radius: 20px;
+    /* text-decoration: blue; */
 }
 
 .displaytask{
     height:330px;
     width:500px;
-    background-color: rgb(108, 167, 214);
-    border-radius: 20px;
+    background-color: rgb(16, 3, 65);
+    border-radius: 30px;
     margin-bottom: 20px;
 }
 
@@ -35,13 +36,14 @@
 }
 .input_bar{
     height:40px;
-    width:250px;
+    width:290px;
     line-height: 30px;
     padding: 0 10px;
     /* text-align:center; */
     border-radius: 13px;
-    border: solid gray 1px;
+    border: solid rgb(3, 3, 65) 2px;
     box-sizing: border-box;
+    /* color: rgb(3, 3, 65); */
     /* margin: 20px; */
 }
 
@@ -52,7 +54,7 @@
     height:40px;
     width:130px;
     border: none;
-    background-color: rgb(123, 123, 243);
+    background-color:rgb(3, 3, 65);
     color: white;
     border-radius: 10px;
     cursor: pointer;
@@ -65,3 +67,8 @@
     /* color: ; */
 
 }
+
+.input_bar::placeholder {
+    color:rgb(3, 3, 65); /* Change this to the desired color */
+    opacity: 1; /* Ensures the color is fully opaque */
+  }
